@@ -1,0 +1,23 @@
+<ModOps>
+    <!-- Abyssal Depth -->
+    <!-- Cordillera -->
+    <ModOp Type="replace" GUID='191132' Path="/Values/ItemEffect/EffectTargets">
+        <EffectTargets>
+            <Item>
+                <GUID>190762</GUID>
+            </Item>
+        </EffectTargets>
+    </ModOp>
+    <!-- Domestic Animals -->
+    <!-- Eastern Jungle -->
+    <!-- Enbesean Highlands -->
+    <!-- Great Coral Reef -->
+    <!-- Great Desert -->
+    <!-- Luminaries -->
+    <!-- Miambo Woodlands -->
+    <!-- Ocean Predetors -->
+    <!-- Proud Savannah -->
+    <!-- Rainforest -->
+    <!-- Taiga Forest -->
+    <!-- Teeming Lakes -->
+</ModOps>

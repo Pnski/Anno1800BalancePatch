@@ -1,18 +1,13 @@
 <ModOps>
-  <!-- Season 01 -->
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
-  <!-- Season 02 -->
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
-  <!-- Season 03 -->
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
-  <!-- Season 04 -->
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
-  <Include File="even-more-modops.include.xml" />
+  <Include File="palace.include.xml" />
+  <Include File="research.include.xml" />
+  <Include File="item.include.xml" />
+  <Include File="zoo.include.xml" />
+  <!-- Testing -->
+  <ModOp Type="replace" GUID='249947' Path="/Values/Palace/AttractivenessRequiredForFirstParagonLevel">
+    <AttractivenessRequiredForFirstParagonLevel>1</AttractivenessRequiredForFirstParagonLevel>
+  </ModOp>
+  <ModOp Type="replace" GUID='249947' Path="/Values/Palace/AttractivenessRequiredForAnyAdditionalParagonLevel">
+    <AttractivenessRequiredForAnyAdditionalParagonLevel>1</AttractivenessRequiredForAnyAdditionalParagonLevel>
+  </ModOp>
 </ModOps>

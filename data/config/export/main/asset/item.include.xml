@@ -1,0 +1,6 @@
+<ModOps>
+    <!-- Pedologists -->
+    <ModOp Type="replace" GUID='1961,190689' Path="/Values/FactoryUpgrade/AdditionalOutput/Item/Amount">
+        <Amount>1</Amount>
+    </ModOp>
+</ModOps>

@@ -2,7 +2,7 @@
   "Version": "0.0.1",
   "ModID": "BalancePatch_Pnski",
   "DeprecateIds": [
-    "Final BalancePatch_Pnski"
+    "BalancePatch_Pnski"
   ],
   "LoadAfterIds": [],
   "IncompatibleIds": null,
@@ -21,17 +21,17 @@
     "Taiwanese": "Gameplay"
   },
   "ModName": {
-    "Chinese": "Final Balance Patch v 0.0.1",
-    "English": "Final Balance Patch v 0.0.1",
-    "French": "Final Balance Patch v 0.0.1",
-    "German": "Final Balance Patch v 0.0.1",
-    "Italian": "Final Balance Patch v 0.0.1",
-    "Japanese": "Final Balance Patch v 0.0.1",
-    "Korean": "Final Balance Patch v 0.0.1",
-    "Polish": "Final Balance Patch v 0.0.1",
-    "Russian": "Final Balance Patch v 0.0.1",
-    "Spanish": "Final Balance Patch v 0.0.1",
-    "Taiwanese": "Final Balance Patch v 0.0.1"
+    "Chinese": "Balance Patch v 0.0.1",
+    "English": "Balance Patch v 0.0.1",
+    "French": "Balance Patch v 0.0.1",
+    "German": "Balance Patch v 0.0.1",
+    "Italian": "Balance Patch v 0.0.1",
+    "Japanese": "Balance Patch v 0.0.1",
+    "Korean": "Balance Patch v 0.0.1",
+    "Polish": "Balance Patch v 0.0.1",
+    "Russian": "Balance Patch v 0.0.1",
+    "Spanish": "Balance Patch v 0.0.1",
+    "Taiwanese": "Balance Patch v 0.0.1"
   },
   "Description": {
     "English": "file::README.ENG.md",
