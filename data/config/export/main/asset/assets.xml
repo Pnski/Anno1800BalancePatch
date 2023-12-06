@@ -3,6 +3,8 @@
   <Include File="research.include.xml" />
   <Include File="item.include.xml" />
   <Include File="zoo.include.xml" />
+  <Include File="museum.include.xml" />
+  <Include File="garden.include.xml" />
   <!-- Testing -->
   <ModOp Type="replace" GUID='249947' Path="/Values/Palace/AttractivenessRequiredForFirstParagonLevel">
     <AttractivenessRequiredForFirstParagonLevel>1</AttractivenessRequiredForFirstParagonLevel>
