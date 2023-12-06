@@ -1,0 +1,18 @@
+<ModOps>
+  <!-- Season 01 -->
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+  <!-- Season 02 -->
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+  <!-- Season 03 -->
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+  <!-- Season 04 -->
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+  <Include File="even-more-modops.include.xml" />
+</ModOps>

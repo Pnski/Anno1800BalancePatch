@@ -1,0 +1,54 @@
+{
+  "Version": "0.0.1",
+  "ModID": "BalancePatch_Pnski",
+  "DeprecateIds": [
+    "Final BalancePatch_Pnski"
+  ],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Final Balance Patch v 0.0.1",
+    "English": "Final Balance Patch v 0.0.1",
+    "French": "Final Balance Patch v 0.0.1",
+    "German": "Final Balance Patch v 0.0.1",
+    "Italian": "Final Balance Patch v 0.0.1",
+    "Japanese": "Final Balance Patch v 0.0.1",
+    "Korean": "Final Balance Patch v 0.0.1",
+    "Polish": "Final Balance Patch v 0.0.1",
+    "Russian": "Final Balance Patch v 0.0.1",
+    "Spanish": "Final Balance Patch v 0.0.1",
+    "Taiwanese": "Final Balance Patch v 0.0.1"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Pnski",
+  "CreatorContact": null,
+  "Image": null
+}
