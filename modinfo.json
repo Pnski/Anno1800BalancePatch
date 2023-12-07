@@ -2,7 +2,7 @@
   "Version": "0.0.1",
   "ModID": "BalancePatch_Pnski",
   "DeprecateIds": [
-    "BalancePatch_Pnski"
+    "final_BalancePatch_Pnski"
   ],
   "LoadAfterIds": [],
   "IncompatibleIds": null,
