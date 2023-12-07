@@ -1,3 +1,20 @@
 <ModOps>
-    <!-- -->
+    <!-- Aegean Cultures -->
+    <!-- Atlantean -->
+    <!-- Battle of Trelawney -->
+    <!-- Bronze Age -->
+    <!-- Empire of the Eagle -->
+    <!-- Gods of Delta -->
+    <!-- 3 Item Set for Attractiveness -->
+    <ModOp Type="replace" GUID='124913' Path="/Values/InfluenceSourceUpgrade/InfluenceAmounUpgrade" />
+    <!-- Heirlooms of the Gold-Realm -->
+    <!-- Icebound -->
+    <!-- Lost Cities -->
+    <!-- Lost Tribes -->
+    <!-- New World Huaca -->
+    <!-- Nothern Sagas -->
+    <!-- Origin of Mankind -->
+    <!-- Roots of Enbesa -->
+    <!-- Skull and Bones -->
+    <!-- Thule Relics -->
 </ModOps>

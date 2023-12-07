@@ -1,5 +1,5 @@
 <ModOps>
-    <!-- Research Institute 100 000 Engeneers = 1 min research -->
+    <!-- Research Institute 100 000 Engineers = 1 min research -->
     <!-- Items -->
     <ModOp Type="merge" GUID='120244' Path="/Values/ResearchFeature/ItemCraftingConfig">
         <ItemCraftingConfig>
