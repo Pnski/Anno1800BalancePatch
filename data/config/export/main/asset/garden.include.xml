@@ -21,6 +21,9 @@
     </ModOp>
     <ModOp Type="remove" GUID='193671,193768' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
     <!-- Marshland -->
+    <ModOp Type="replace" GUID='193656' Path="/Values/ResidenceUpgrade/AdditionalHappiness">
+      <AdditionalHappiness>5</AdditionalHappiness>
+    </ModOp>
     <!-- Near East -->
     <ModOp Type="merge" GUID='193659,193765' Path="/Values">
       <ModuleOwnerUpgrade>
@@ -31,10 +34,15 @@
     <!-- Sacred -->
     <!-- Sargosso Sea -->
     <!-- Subalpine -->
-    <ModOp Type="merge" GUID='193663,193766' Path="/Values">
+    <ModOp Type="merge" GUID='193663' Path="/Values">
       <ModuleOwnerUpgrade>
         <ModuleLimitPercent>-10</ModuleLimitPercent>
       </ModuleOwnerUpgrade>
+    </ModOp>
+    <ModOp Type="merge" GUID='193766' Path="/Values/FactoryUpgrade">
+      <NeededAreaPercentUpgrade>
+        <Value>-10</Value>
+      </NeededAreaPercentUpgrade>
     </ModOp>
     <ModOp Type="remove" GUID='193663,193766' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
 </ModOps>
