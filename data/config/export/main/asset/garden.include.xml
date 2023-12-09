@@ -1,10 +1,40 @@
 <ModOps>
     <!-- Amazonas -->
+    <ModOp Type="merge" GUID='193652,193764' Path="/Values">
+      <ModuleOwnerUpgrade>
+        <ModuleLimitPercent>-10</ModuleLimitPercent>
+      </ModuleOwnerUpgrade>
+    </ModOp>
+    <ModOp Type="remove" GUID='193652,193764' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
     <!-- Andean -->
+    <ModOp Type="merge" GUID='193664,193767' Path="/Values">
+      <ModuleOwnerUpgrade>
+        <ModuleLimitPercent>-10</ModuleLimitPercent>
+      </ModuleOwnerUpgrade>
+    </ModOp>
+    <ModOp Type="remove" GUID='193664,193767' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
     <!-- Enchanted -->
+    <ModOp Type="merge" GUID='193671,193768' Path="/Values">
+      <ModuleOwnerUpgrade>
+        <ModuleLimitPercent>-10</ModuleLimitPercent>
+      </ModuleOwnerUpgrade>
+    </ModOp>
+    <ModOp Type="remove" GUID='193671,193768' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
     <!-- Marshland -->
     <!-- Near East -->
+    <ModOp Type="merge" GUID='193659,193765' Path="/Values">
+      <ModuleOwnerUpgrade>
+        <ModuleLimitPercent>-10</ModuleLimitPercent>
+      </ModuleOwnerUpgrade>
+    </ModOp>
+    <ModOp Type="remove" GUID='193659,193765' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
     <!-- Sacred -->
     <!-- Sargosso Sea -->
     <!-- Subalpine -->
+    <ModOp Type="merge" GUID='193663,193766' Path="/Values">
+      <ModuleOwnerUpgrade>
+        <ModuleLimitPercent>-10</ModuleLimitPercent>
+      </ModuleOwnerUpgrade>
+    </ModOp>
+    <ModOp Type="remove" GUID='193663,193766' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
 </ModOps>
