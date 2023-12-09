@@ -1,5 +1,16 @@
 <ModOps>
     <!-- Aegean Cultures -->
+    <ModOp Type="merge" GUID='191142' Path="/Values/BuildingUpgrade">
+        <BuildingUpgrade>
+            <PublicServiceFullSatisfactionDistance>10</PublicServiceFullSatisfactionDistance>
+            <PublicServiceNoSatisfactionDistance>10</PublicServiceNoSatisfactionDistance>
+        </BuildingUpgrade>
+    </ModOp>
+    <ModOp Type="add" GUID='191142' Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>130042</GUID>
+        </Item>
+    </ModOp>
     <!-- Atlantean -->
     <!-- Battle of Trelawney -->
     <!-- Bronze Age -->
@@ -11,6 +22,10 @@
     <!-- 3 Item Set for Attractiveness -->
     <ModOp Type="replace" GUID='124913' Path="/Values/InfluenceSourceUpgrade/InfluenceAmounUpgrade" />
     <!-- Heirlooms of the Gold-Realm -->
+    <Include File="heirloom.museum.include.xml" />
+    <ModOp Type="replace" GUID='124908' Path="/Values/ItemSocketSet/SetBuff">
+        <SetBuff>1600000001</SetBuff>
+    </ModOp>
     <!-- Icebound -->
     <ModOp Type="merge" GUID='193777' Path="/Values">
         <FactoryUpgrade>
@@ -28,6 +43,46 @@
     </ModOp>
     <!-- Lost Cities -->
     <!-- Lost Tribes -->
+    <ModOp Type="replace" GUID='124914' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010206</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010237</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010203</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120043</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>            
+            <Item>
+                <ProvidedNeed>1010247</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120037</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010247</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>114401</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>114430</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
     <!-- New World Huaca -->
     <!-- Nothern Sagas -->
     <!-- Origin of Mankind -->
