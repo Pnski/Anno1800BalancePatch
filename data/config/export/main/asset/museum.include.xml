@@ -4,17 +4,37 @@
     <!-- Battle of Trelawney -->
     <!-- Bronze Age -->
     <!-- Empire of the Eagle -->
+    <ModOp Type="replace" GUID='191148' Path="/Values/ResidenceUpgrade/TaxModifierInPercent">
+        <TaxModifierInPercent>10</TaxModifierInPercent>
+    </ModOp>
     <!-- Gods of Delta -->
     <!-- 3 Item Set for Attractiveness -->
     <ModOp Type="replace" GUID='124913' Path="/Values/InfluenceSourceUpgrade/InfluenceAmounUpgrade" />
     <!-- Heirlooms of the Gold-Realm -->
     <!-- Icebound -->
+    <ModOp Type="merge" GUID='193777' Path="/Values">
+        <FactoryUpgrade>
+            <ProductivityUpgrade>
+                <Value>20</Value>
+                <Percentual>1</Percentual>
+            </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+            <WorkforceAmountUpgrade>
+                <Value>-10</Value>
+                <Percentual>1</Percentual>
+            </WorkforceAmountUpgrade>
+		</BuildingUpgrade>
+    </ModOp>
     <!-- Lost Cities -->
     <!-- Lost Tribes -->
     <!-- New World Huaca -->
     <!-- Nothern Sagas -->
     <!-- Origin of Mankind -->
     <!-- Roots of Enbesa -->
+    <ModOp Type="replace" GUID='124915' Path="/Values/ResidenceUpgrade/AdditionalResearch">
+        <AdditionalResearch>5</AdditionalResearch>
+    </ModOp>
     <!-- Skull and Bones -->
     <!-- Thule Relics -->
 </ModOps>

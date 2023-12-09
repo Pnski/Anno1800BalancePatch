@@ -32,7 +32,6 @@
     </ModOp>
     <ModOp Type="remove" GUID='193659,193765' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
     <!-- Sacred -->
-    <!-- Sargosso Sea -->
     <!-- Subalpine -->
     <ModOp Type="merge" GUID='193663' Path="/Values">
       <ModuleOwnerUpgrade>

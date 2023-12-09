@@ -12,8 +12,32 @@
     <!-- Eastern Jungle -->
     <!-- Enbesean Highlands -->
     <!-- Great Coral Reef -->
+    <ModOp Type="replace" GUID='191135' Path="/Values/ItemEffect/EffectTargets">
+        <EffectTargets>
+            <Item>
+                <GUID>190762</GUID>
+            </Item>
+        </EffectTargets>
+    </ModOp>
+    <ModOp Type="replace" GUID='191135' Path="/Values/ResidenceUpgrade/AdditionalHappiness">
+        <AdditionalHappiness>5</AdditionalHappiness>
+    </ModOp>
     <!-- Great Desert -->
     <!-- Luminaries -->
+    <ModOp Type="replace" GUID='193404' Path="/Values/CultureUpgrade/AttractivenessUpgrade/Value">
+        <Value>5</Value>
+    </ModOp>
+    <ModOp Type="add" GUID='193404' Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>191540</GUID>
+        </Item>
+        <Item>
+            <GUID>193872</GUID>
+        </Item>
+        <Item>
+            <GUID>1010360</GUID>
+        </Item>
+    </ModOp>
     <!-- Miambo Woodlands -->
     <!-- Ocean Predetors -->
     <!-- Proud Savannah -->
