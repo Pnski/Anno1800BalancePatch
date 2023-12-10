@@ -99,6 +99,9 @@
         <Value>-15</Value>
     </ModOp>
     <!-- Ocean Predetors -->
+    <ModOp Type="replace" GUID='191140' Path="/Values/FactoryUpgrade/ProductivityUpgrade/Value">
+        <Value>30</Value>
+    </ModOp>
     <!-- Proud Savannah -->
     <!-- Rainforest -->
     <!-- 6Item both Influence -->
