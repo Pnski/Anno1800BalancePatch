@@ -1,5 +1,10 @@
 <ModOps>
     <!-- Abyssal Depth -->
+    <Include File="abyssal.zoo.include.xml" />
+    <ModOp Type="merge" GUID='193401' Path="/Values/ItemSocketSet">
+        <SetBuff>1600000004</SetBuff>
+        <BuffScope>Area</BuffScope>
+    </ModOp>
     <!-- Cordillera -->
     <ModOp Type="replace" GUID='191132' Path="/Values/ItemEffect/EffectTargets">
         <EffectTargets>
