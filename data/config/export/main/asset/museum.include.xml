@@ -12,6 +12,10 @@
         </Item>
     </ModOp>
     <!-- Atlantean -->
+    <Include File="atlantean.museum.include.xml" />
+    <ModOp Type="replace" GUID='193405' Path="/Values/ItemSocketSet/SetBuff">
+        <SetBuff>1600000002</SetBuff>
+    </ModOp>
     <!-- Battle of Trelawney -->
     <!-- Bronze Age -->
     <!-- Empire of the Eagle -->
