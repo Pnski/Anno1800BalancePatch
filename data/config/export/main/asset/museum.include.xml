@@ -17,6 +17,7 @@
         <SetBuff>1600000002</SetBuff>
     </ModOp>
     <!-- Battle of Trelawney -->
+
     <!-- Bronze Age -->
     <!-- Empire of the Eagle -->
     <ModOp Type="replace" GUID='191148' Path="/Values/ResidenceUpgrade/TaxModifierInPercent">
@@ -89,11 +90,15 @@
     </ModOp>
     <!-- New World Huaca -->
     <!-- Nothern Sagas -->
-    <!-- Origin of Mankind -->
+    <ModOp Type="replace" GUID='191149' Path="Values">
     <!-- Roots of Enbesa -->
     <ModOp Type="replace" GUID='124915' Path="/Values/ResidenceUpgrade/AdditionalResearch">
         <AdditionalResearch>5</AdditionalResearch>
     </ModOp>
     <!-- Skull and Bones -->
+    <ModOp Type="merge" GUID='191128' Path="/Values/ItemSocketSet">
+        <SetBuff>1600000003</SetBuff>
+        <BuffScope>Area</BuffScope>
+    </ModOp>
     <!-- Thule Relics -->
 </ModOps>
