@@ -19,6 +19,9 @@
     <!-- Battle of Trelawney -->
 
     <!-- Bronze Age -->
+    <ModOp Type="replace" GUID='191141' Path="/Values/FactoryUpgrade/ProductivityUpgrade/Value">
+        <Value>20</Value>
+    </ModOp>
     <!-- Empire of the Eagle -->
     <ModOp Type="replace" GUID='191148' Path="/Values/ResidenceUpgrade/TaxModifierInPercent">
         <TaxModifierInPercent>10</TaxModifierInPercent>

@@ -9,8 +9,54 @@
         </EffectTargets>
     </ModOp>
     <!-- Domestic Animals -->
+    <ModOp Type="replace" GUID='191139' Path="/Values/ItemEffect/EffectTargets/Item/GUID">
+        <GUID>1965</GUID>
+    </ModOp>
+    <ModOp Type="remove" GUID='191139' Path="/Values/BuildingUpgrade" />
+    <ModOp Type="replace" GUID='191139' Path="/Values/FactoryUpgrade">
+		<FactoryUpgrade>
+			<ProductivityUpgrade>
+				<Value>25</Value>
+				<Percental>1</Percental>
+			</ProductivityUpgrade>
+			<AdditionalOutput>
+				<Item>
+					<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+					<AdditionalOutputCycle>3</AdditionalOutputCycle>
+					<Amount>1</Amount>
+				</Item>
+			</AdditionalOutput>
+		</FactoryUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID='191139' Path="/Values/ModuleOwnerUpgrade">
+		<ModuleOwnerUpgrade>
+			<ModuleLimitPercent>-25</ModuleLimitPercent>
+		</ModuleOwnerUpgrade>
+    </ModOp>
     <!-- Eastern Jungle -->
     <!-- Enbesean Highlands -->
+    <ModOp Type="replace" GUID='124208' Path="/Values/PopulationUpgrade">
+        <PopulationUpgrade>
+			<InputBenefitModifier>
+				<Item>
+					<Product>114390</Product>
+					<AdditionalResearch>5</AdditionalResearch>
+				</Item>
+                <Item>
+					<Product>114410</Product>
+					<AdditionalResearch>5</AdditionalResearch>
+				</Item>
+                <Item>
+					<Product>114425</Product>
+					<AdditionalResearch>10</AdditionalResearch>
+				</Item>
+                <Item>
+					<Product>1010232</Product>
+					<AdditionalResearch>7</AdditionalResearch>
+				</Item>
+			</InputBenefitModifier>
+		</PopulationUpgrade>
+    </ModOp>
     <!-- Great Coral Reef -->
     <ModOp Type="replace" GUID='191135' Path="/Values/ItemEffect/EffectTargets">
         <EffectTargets>
@@ -38,7 +84,15 @@
             <GUID>1010360</GUID>
         </Item>
     </ModOp>
-    <!-- Miambo Woodlands -->
+    <!-- Miombo Woodlands -->
+    <ModOp Type="add" GUID='124210' Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>194008</GUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="replace" GUID='124210' Path="/Values/FactoryUpgrade/NeededAreaPercentUpgrade/Value">
+        <Value>-15</Value>
+    </ModOp>
     <!-- Ocean Predetors -->
     <!-- Proud Savannah -->
     <!-- Rainforest -->
