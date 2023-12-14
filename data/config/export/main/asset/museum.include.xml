@@ -96,32 +96,29 @@
         <Value>20</Value>
     </ModOp>
     <!-- Pool -->
-    <ModOp type="replace" GUID='191510' Path="/Values/Rewardpool">
-        <RewardPool>
-			<ItemsPool>
-				<!--<Item>
-					<ItemLink>193390</ItemLink>
-					<Weight>10</Weight>
-				</Item>
-				<Item>
-					<ItemLink>193391</ItemLink>
-					<Weight>20</Weight>
-				</Item>
-				<Item>
-					<ItemLink>193392</ItemLink>
-					<Weight>20</Weight>
-				</Item> -->
-				<Item>
-					<ItemLink>193393</ItemLink>
-					<Weight>40</Weight>
-				</Item>
-				<Item>
-					<ItemLink>193394</ItemLink>
-					<Weight>60</Weight>
-				</Item>
-			</ItemsPool>
-			<IgnoreUnlocks>1</IgnoreUnlocks>
-		</RewardPool>
+    <ModOp type="replace" GUID='191510' Path="/Values/RewardPool/ItemsPool">
+        <ItemsPool>
+            <!--<Item>
+                <ItemLink>193390</ItemLink>
+                <Weight>10</Weight>
+            </Item>
+            <Item>
+                <ItemLink>193391</ItemLink>
+                <Weight>20</Weight>
+            </Item>
+            <Item>
+                <ItemLink>193392</ItemLink>
+                <Weight>20</Weight>
+            </Item> -->
+            <Item>
+                <ItemLink>193393</ItemLink>
+                <Weight>40</Weight>
+            </Item>
+            <Item>
+                <ItemLink>193394</ItemLink>
+                <Weight>60</Weight>
+            </Item>
+        </ItemsPool>
     </ModOp>
     <!-- Nothern Sagas -->
     <ModOp Type="merge" GUID='191149' Path="/Values">
