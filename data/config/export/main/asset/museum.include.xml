@@ -151,7 +151,7 @@
     </ModOp>
     <!-- Roots of Enbesa -->
     <ModOp Type="replace" GUID='124915' Path="/Values/ResidenceUpgrade/AdditionalResearch">
-        <AdditionalResearch>5</AdditionalResearch>
+        <AdditionalResearch>25</AdditionalResearch>
     </ModOp>
     <!-- Skull and Bones -->
     <ModOp Type="merge" GUID='191128' Path="/Values/ItemSocketSet">

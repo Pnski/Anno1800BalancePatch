@@ -39,25 +39,41 @@
 		</ModuleOwnerUpgrade>
     </ModOp>
     <!-- Eastern Jungle -->
+    <ModOp Type="replace" GUID='191120' Path="/Values/ItemSocketSet/SetBuff">
+        <SetBuff>1600000005</SetBuff>
+    </ModOp>
     <!-- Enbesean Highlands -->
+    <ModOp Type="remove" GUID='124208' Path="/Values/ResidenceUpgrade">
     <ModOp Type="replace" GUID='124208' Path="/Values/PopulationUpgrade">
         <PopulationUpgrade>
 			<InputBenefitModifier>
+                <Item>
+					<Product>1010217</Product>
+					<AdditionalResearch>5</AdditionalResearch>
+				</Item>
 				<Item>
-					<Product>114390</Product>
+					<Product>114430</Product>
+					<AdditionalResearch>5</AdditionalResearch>
+				</Item>
+				<Item>
+					<Product>114410</Product>
+					<AdditionalResearch>5</AdditionalResearch>
+				</Item>
+				<Item>
+					<Product>114431</Product>
+					<AdditionalResearch>5</AdditionalResearch>
+				</Item>
+				<Item>
+					<Product>1010248</Product>
 					<AdditionalResearch>5</AdditionalResearch>
 				</Item>
                 <Item>
-					<Product>114410</Product>
+					<Product>1010354</Product>
 					<AdditionalResearch>5</AdditionalResearch>
 				</Item>
                 <Item>
 					<Product>114425</Product>
-					<AdditionalResearch>10</AdditionalResearch>
-				</Item>
-                <Item>
-					<Product>1010232</Product>
-					<AdditionalResearch>7</AdditionalResearch>
+					<AdditionalResearch>5</AdditionalResearch>
 				</Item>
 			</InputBenefitModifier>
 		</PopulationUpgrade>
