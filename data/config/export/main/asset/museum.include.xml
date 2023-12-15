@@ -21,7 +21,18 @@
         <SetBuff>1600000002</SetBuff>
     </ModOp>
     <!-- Battle of Trelawney -->
-
+    <ModOp Type="remove" GUID='193407' Path="/Values/AttackerUpgrade" />
+    <ModOp Type="replace" GUID='193407' Path="/Values/VehicleUpgrade">
+        <VehicleUpgrade>
+            <ForwardSpeedUpgrade>
+                <Value>20</Value>
+                <Percental>1</Percental>
+            </ForwardSpeedUpgrade>
+        </VehicleUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID='193407' Path="/Values/ItemEffect/EffectTargets/Item/GUID">
+        <GUID>191454</GUID>
+    </ModOp>
     <!-- Bronze Age -->
     <ModOp Type="replace" GUID='191141' Path="/Values/FactoryUpgrade/ProductivityUpgrade/Value">
         <Value>20</Value>
