@@ -32,6 +32,10 @@
     </ModOp>
     <ModOp Type="remove" GUID='193659,193765' Path="/Values/FactoryUpgrade/ProductivityUpgrade" />
     <!-- Sacred -->
+    <Include File="sacred.garden.include.xml" />
+    <ModOp Type="replace" GUID='193660' Path="/Values/ItemSocketSet/SetBuff">
+      <SetBuff>1600000006</SetBuff>
+    </ModOp>
     <!-- Subalpine -->
     <ModOp Type="merge" GUID='193663' Path="/Values">
       <ModuleOwnerUpgrade>
