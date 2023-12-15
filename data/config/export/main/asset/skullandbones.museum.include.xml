@@ -1,5 +1,5 @@
 <ModOps>   
-    <ModOp GUID="1600000003" Type="addNextSibling">
+    <ModOp GUID="191146" Type="addNextSibling">
         <Asset>
             <Template>GuildhouseBuff</Template>
             <Values>
@@ -25,7 +25,6 @@
                         </Item>
                     </EffectTargets>
                 </ItemEffect>
-                <FactoryUpgrade/>
                 <BuildingUpgrade>
                     <ResolverUnitCountUpgrade>
                         <Value>2</Value>
@@ -35,21 +34,6 @@
                         <Percental>1</Percental>
                     </ResolverUnitMovementSpeedUpgrade>
                 </BuildingUpgrade>
-                <Buff/>
-                <CultureUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <PowerplantUpgrade/>
-                <IndustrializableUpgrade/>
-                <ItemContainerUpgrade/>
-                <IncidentInfluencerUpgrade>
-                    <SpecialUnitHappinessThresholdUpgrade>
-                        <Value>-10</Value>
-                    </SpecialUnitHappinessThresholdUpgrade>
-                </IncidentInfluencerUpgrade>
-                <IrrigationUpgrade/>
-                <EcoSystemProviderUpgrade/>
-                <ResourceUpgrade/>
             </Values>
         </Asset>
     </ModOp>

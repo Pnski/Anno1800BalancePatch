@@ -54,6 +54,25 @@
 		</BuildingUpgrade>
     </ModOp>
     <!-- Lost Cities -->
+    <ModOp Type="remove" GUID='191144' Path="/Values/PassiveTradeGoodGenUpgrade" />
+    <ModOp Type="replace" GUID='191144' Path="/Values/ItemEffect/EffectTargets/Item/GUID">
+        <GUID>191443</GUID>
+    </ModOp>
+    <ModOp Type="replace" GUID='191144' Path="/Values/AttackerUpgrade">
+        <AttackerUpgrade>
+			<BaseDamageUpgrade>
+				<Value>20</Value>
+				<Percental>1</Percental>
+			</BaseDamageUpgrade>
+		</AttackerUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID='191144' Path="/Values/AttackableUpgrade">
+		<AttackableUpgrade>
+			<MaxHitpointsUpgrade>
+				<Value>1000</Value>
+			</MaxHitpointsUpgrade>
+		</AttackableUpgrade>
+    </ModOp>
     <!-- Lost Tribes -->
     <ModOp Type="replace" GUID='124914' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/">
         <GoodConsumptionUpgrade>
@@ -158,9 +177,9 @@
         <AdditionalResearch>25</AdditionalResearch>
     </ModOp>
     <!-- Skull and Bones -->
+    <Include File="skullandbones.museum.include.xml" />
     <ModOp Type="merge" GUID='191128' Path="/Values/ItemSocketSet">
         <SetBuff>1600000003</SetBuff>
         <BuffScope>Area</BuffScope>
     </ModOp>
-    <!-- Thule Relics -->
 </ModOps>
