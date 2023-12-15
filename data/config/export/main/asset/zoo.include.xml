@@ -89,7 +89,6 @@
     <ModOp Type="replace" GUID='191135' Path="/Values/ResidenceUpgrade/AdditionalHappiness">
         <AdditionalHappiness>5</AdditionalHappiness>
     </ModOp>
-    <!-- Great Desert -->
     <!-- Luminaries -->
     <ModOp Type="replace" GUID='193404' Path="/Values/CultureUpgrade/AttractivenessUpgrade/Value">
         <Value>5</Value>
@@ -118,7 +117,6 @@
     <ModOp Type="replace" GUID='191140' Path="/Values/FactoryUpgrade/ProductivityUpgrade/Value">
         <Value>30</Value>
     </ModOp>
-    <!-- Proud Savannah -->
     <!-- Rainforest -->
     <!-- 6Item both Influence -->
     <ModOp Type="replace" GUID='191136' Path="/Values/ItemEffect/EffectTargets">
@@ -194,4 +192,16 @@
         </GoodConsumptionUpgrade>
     </ModOp>
     <!-- Teeming Lakes -->
+    <ModOp Type="remove" GUID='124207' Path="/Values/FactoryUpgrade" />
+    <ModOp Type="replace" GUID='124207' Path="/Values/PierUpgrade">
+        <PierUpgrade>
+			<PierSpeedUpgrade>
+				<Value>15</Value>
+				<Percental>1</Percental>
+			</PierSpeedUpgrade>
+		</PierUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID='124207' Path="/Values/ItemEffect/EffectTargets/Item/GUID">
+        <GUID>193480</GUID>
+    </ModOp>
 </ModOps>
