@@ -1,7 +1,7 @@
 <ModOps>
-    <ModOp GUID="1600000004" Type="addNextSibling">
+    <ModOp GUID='193402' Type="addNextSibling">
         <Asset>
-            <Template>GuildhouseBuff</Template>
+            <Template>TownhallBuff</Template>
             <Values>
                 <Standard>
                     <GUID>1600000004</GUID>

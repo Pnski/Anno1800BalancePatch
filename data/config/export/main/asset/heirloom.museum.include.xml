@@ -1,5 +1,5 @@
 <ModOps>   
-   <ModOp GUID="1600000001" Type="addNextSibling">
+   <ModOp GUID='124916' Type="addNextSibling">
         <Asset>
             <Template>TownhallBuff</Template>
             <Values>
