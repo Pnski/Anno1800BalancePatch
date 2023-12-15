@@ -2,13 +2,17 @@
     <!-- Aegean Cultures -->
     <ModOp Type="merge" GUID='191142' Path="/Values/BuildingUpgrade">
         <BuildingUpgrade>
-            <PublicServiceFullSatisfactionDistance>10</PublicServiceFullSatisfactionDistance>
-            <PublicServiceNoSatisfactionDistance>10</PublicServiceNoSatisfactionDistance>
+            <PublicServiceFullSatisfactionDistance>
+                <Value>10</Value>
+            </PublicServiceFullSatisfactionDistance>
+            <PublicServiceNoSatisfactionDistance>
+                <Value>10</Value>
+            </PublicServiceNoSatisfactionDistance>
         </BuildingUpgrade>
     </ModOp>
     <ModOp Type="add" GUID='191142' Path="/Values/ItemEffect/EffectTargets">
         <Item>
-            <GUID>130042</GUID>
+            <GUID>1010358</GUID>
         </Item>
     </ModOp>
     <!-- Atlantean -->

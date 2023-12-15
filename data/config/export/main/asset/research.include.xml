@@ -32,4 +32,32 @@
 			<MaximumWorkforceTime>60000</MaximumWorkforceTime>
 		</CraftingConfig>
 	</ModOp>
+    <ModOp Type="replace" GUID='126888' Path="/Values">
+        <Values>
+            <Standard>
+                <GUID>126888</GUID>
+                <Name>GodlikeResearchCostsBalancing</Name>
+            </Standard>
+            <ProgressBalancing>
+                <Progress>
+                    <Item>
+                        <Value>25000</Value>
+                    </Item>
+                    <Item>
+                        <Threshold>1</Threshold>
+                        <Value>50000</Value>
+                    </Item>
+                    <Item>
+                        <Threshold>2</Threshold>
+                        <Value>75000</Value>
+                    </Item>
+                </Progress>
+                <PostProgress>
+                    <ThresholdInterval>1</ThresholdInterval>
+                    <ValueIncrease>25000</ValueIncrease>
+                </PostProgress>
+                <AbsoluteLimit />
+            </ProgressBalancing>
+        </Values>
+    </ModOp>
 </ModOps>
