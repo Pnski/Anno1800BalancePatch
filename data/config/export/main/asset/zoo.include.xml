@@ -39,14 +39,19 @@
 		</ModuleOwnerUpgrade>
     </ModOp>
     <!-- Eastern Jungle -->
+    <Include File="jungle.zoo.include.xml" />
     <ModOp Type="replace" GUID='191120' Path="/Values/ItemSocketSet/SetBuff">
         <SetBuff>1600000005</SetBuff>
     </ModOp>
     <!-- Enbesean Highlands -->
-    <ModOp Type="remove" GUID='124208' Path="/Values/ResidenceUpgrade">
+    <ModOp Type="remove" GUID='124208' Path="/Values/ResidenceUpgrade" />
     <ModOp Type="replace" GUID='124208' Path="/Values/PopulationUpgrade">
         <PopulationUpgrade>
 			<InputBenefitModifier>
+                <Item>
+					<Product>1010353</Product>
+					<AdditionalResearch>5</AdditionalResearch>
+				</Item>
                 <Item>
 					<Product>1010217</Product>
 					<AdditionalResearch>5</AdditionalResearch>
