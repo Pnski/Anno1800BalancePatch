@@ -2,27 +2,27 @@
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1600000001</GUID>
-			<Text>Ausstellung: Masu Masu</Text>
+			<Text>Masu Masu Exhibition</Text>
 		</Text>
 		<Text>
 			<GUID>1600000002</GUID>
-			<Text>Atlantis-​Ausstellung</Text>
+			<Text>Atlantean Exhibition</Text>
 		</Text>
 		<Text>
 			<GUID>1600000003</GUID>
-			<Text>Ausstellung: Piraten</Text>
+			<Text>Skull and Bones Exhibition</Text>
 		</Text>
 		<Text>
 			<GUID>1600000004</GUID>
-			<Text>Park der abgründigen Tiefen</Text>
+			<Text>Abyssal Depths Park</Text>
 		</Text>
 		<Text>
 			<GUID>1600000005</GUID>
-			<Text>Park: Dschungel des Ostens</Text>
+			<Text>Eastern Jungle Park</Text>
 		</Text>
-        <Text>
+		<Text>
 			<GUID>1600000006</GUID>
-			<Text>Heiliger Garten</Text>
+			<Text>Sacred Garden</Text>
 		</Text>
 	</ModOp>
 </ModOps>
