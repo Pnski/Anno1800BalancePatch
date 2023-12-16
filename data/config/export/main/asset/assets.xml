@@ -6,11 +6,4 @@
   <Include File="museum.include.xml" />
   <Include File="garden.include.xml" />
   <Include File="hacienda.include.xml" />
-  <!-- Testing -->
-  <ModOp Type="replace" GUID='249947' Path="/Values/Palace/AttractivenessRequiredForFirstParagonLevel">
-    <AttractivenessRequiredForFirstParagonLevel>1</AttractivenessRequiredForFirstParagonLevel>
-  </ModOp>
-  <ModOp Type="replace" GUID='249947' Path="/Values/Palace/AttractivenessRequiredForAnyAdditionalParagonLevel">
-    <AttractivenessRequiredForAnyAdditionalParagonLevel>1</AttractivenessRequiredForAnyAdditionalParagonLevel>
-  </ModOp>
 </ModOps>
